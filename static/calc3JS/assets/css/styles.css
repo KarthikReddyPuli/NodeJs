@@ -1,0 +1,41 @@
+#calc{
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+#input{
+    color: white;
+}
+
+.keypad{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: black;
+    border-color: black;
+    background-color: whitesmoke;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.keypad:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.resbtn{
+    max-width: 50px;
+    height: 50px;
+    color: white;
+    background-color: grey;
+}
+
+.resbtn:hover{
+    background-color: turquoise;
+}
+
+.keypad2:hover{
+    background-color: red;
+    color: whitesmoke;
+}

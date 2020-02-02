@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <h2 id="input">Type Away</h2><br>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(1);">1</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(2);">2</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(3);">3</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "op('+');">+</button><br>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(4);">4</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(5);">5</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(6);">6</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "op('-');">-</button><br>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(7);">7</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(8);">8</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(9);">9</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "op('*');">x</button><br>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval('.');">.</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "storeval(0);">0</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "clr();">clr</button>
+        <button class="col-md-1 btn btn-outline-secondary" onclick = "op('/');">/</button><br><br>
+
+        <button class="col-md-4 btn btn-secondary" onclick = "calc();">Result</button><br>
+        <h2 id="result"></h2>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
